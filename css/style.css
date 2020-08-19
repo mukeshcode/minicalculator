@@ -27,10 +27,11 @@
 }
 @media screen and (max-width : 550px)
 {
+#disp{font-size:10px;}
 #row1{width:50%;}
 #col1{width:20%;}
 #horz{width:30%;}
-#row1 button{ padding : 5px;}
-#col1 button { padding : 10px; font-size:1.5em;}
-#horz button { padding:10px;}
+#row1 button{ padding : 0px;}
+#col1 button { padding : 0px; font-size:1.5em;}
+#horz button { padding:0px;}
 }
