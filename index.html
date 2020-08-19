@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<script src="Script.js"></script>
+<link rel="stylesheet" src="../style.css">
+</head>
+<body>
+<div id="header">
+<p>KASIO</p>
+</div>
+<div id="disp">
+<p id="demo"><code>Display Area</code></p>
+</div>
+<div id="controls">
+<div id="row1">
+<div id="rowfirst">
+<button class="button" onclick=send9() id="button9">9</button>
+<button class="button" onclick=send8() id="button8">8</button>
+<button class="button" onclick=send7() id="button7">7</button>
+</div>
+<div id="rowsecond">
+<button class="button" onclick=send6() id="button6">6</button>
+<button class="button" onclick=send5() id="button5">5</button>
+<button class="button" onclick=send4() id="button4">4</button>
+</div>
+<div id="rowthird">
+<button class="button" onclick=send3() id="button3">3</button>
+<button class="button" onclick=send2() id="button2">2</button>
+<button class="button" onclick=send1() id="button1">1</button>
+</div>
+<div id="rowfourth">
+<button class="button" onclick=send0() 
+id="button0">0</button>
+</div>
+</div>
+<div id="col1">
+<button class="operators" onclick=add() id="buttonadd">+</button>
+<button class="operators" onclick=minus() id="buttonminus">-</button>
+<button class="operators" onclick=multiply() id="buttonmultiply">*</button>
+<button class="operators" onclick=divide() id="buttondivide">/</button>
+</div>
+<div id="horz">
+<button class="result" onclick=result() id="result">=</button>
+<button class="del" onclick=del() id="del">X</button>
+<button class="cl" onclick=cl() id="cl">CLEAR</button>
+</div>
+</div>
+</body>
+</html>
